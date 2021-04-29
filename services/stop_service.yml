@@ -1,0 +1,9 @@
+---
+- name: Pause a Windows Service
+  hosts: all
+  
+  tasks:
+  - name: Pause a service
+    win_service:
+      name: "{{ win_service }}" 
+      state: paused
