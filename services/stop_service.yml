@@ -6,4 +6,4 @@
   - name: Pause a service
     win_service:
       name: "{{ win_service }}" 
-      state: paused
+      state: stopped
