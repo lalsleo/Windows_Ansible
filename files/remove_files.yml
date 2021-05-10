@@ -5,5 +5,5 @@
   tasks:
   - name: Clean Publico
     win_file:
-      path: C:\Test\
+      path: C:\Test\*.*
       state: absent
