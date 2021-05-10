@@ -1,5 +1,5 @@
 ---
-- name: Pause a Windows Service
+- name: Clean Publico directory
   hosts: all
   
   tasks:
