@@ -1,0 +1,9 @@
+---
+- name: Pause a Windows Service
+  hosts: all
+  
+  tasks:
+  - name: Clean Publico
+    win_file:
+      path: C:\Test\*
+      state: absent
